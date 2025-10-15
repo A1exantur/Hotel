@@ -1,0 +1,113 @@
+.main_terrain{
+    margin-bottom: 36px;
+}
+
+.main_terrain-info {
+    background-image: url(/img/main_green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 17px 0 16px;
+}
+
+.main_terrain-title {
+    padding-top: 30px;
+    font-family: var(--font-accent);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 133%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fcfaf3;
+    padding-bottom: 16px;
+}
+.first_title{
+    padding-bottom: 12px;
+}
+
+.main_terrain-subtitle {
+    font-family: var(--font-accent);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 126%;
+    letter-spacing: 0.05em;
+    color: #fcfaf3;
+}
+
+.last_title{
+    padding-bottom: 28px;
+}
+
+.main_terrain-img {
+    background-image: url(/img/main_geli.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 211px;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 0 16px 17px 0;
+}
+.main_terrain-img-arrow{
+    position: absolute;
+    right: 43%;
+    top: -16px;
+}
+.arrow-big{
+    display: none;
+    position: absolute;
+}
+
+.main_terrain-text{
+    font-family: var(--font-accent);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 133%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fcfaf3;
+}
+
+.small {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 126%;
+letter-spacing: 0.05em;
+color: #fcfaf3;
+opacity: 0.5;
+}
+
+
+
+@media (min-width:640px){
+    .main_terrain-group{
+        display: flex;
+    }
+    .main_terrain-info {
+        width: 50%;
+    }
+    .main_terrain-img{
+        background-image: url(/img/main_geli-big.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        height: 430px;
+    }
+    .main_terrain-img-arrow{
+        top: 30%;
+        right: 97%;
+    }
+    .arrow-big{
+        display: block;
+        right: 97%;
+        bottom: 176px;
+    }
+}
+@media (min-width:1179px){
+    .main_terrain-info{
+        padding-left: 20%;
+    }
+}
