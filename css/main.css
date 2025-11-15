@@ -5,7 +5,7 @@
 @import "reset.css";
 
 /* Block */
-@import "block/header.css";
-@import "block/info_main.css";
-@import "block/main_terrain.css";
-@import "block/contact.css";
+@import "header.css";
+@import "info_main.css";
+@import "main_terrain.css";
+@import "contact.css";
