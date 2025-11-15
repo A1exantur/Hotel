@@ -2,10 +2,10 @@
 
 
 
-@import "reset.css";
+@import " reset.css";
 
 /* Block */
-@import "header.css";
-@import "info_main.css";
-@import "main_terrain.css";
-@import "contact.css";
+@import "block/header.css";
+@import "block/info_main.css";
+@import "block/main_terrain.css";
+@import "block/contact.css";
